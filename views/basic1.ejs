@@ -1,0 +1,9 @@
+<% include ./partials/header %>
+
+<ul>
+    <% drinks.forEach(function(drink) { %>
+        <li><%= drink.name %> - <%= drink.drunkness %></li>
+    <% }); %>
+</ul>
+	
+<% include ./partials/footer %>
